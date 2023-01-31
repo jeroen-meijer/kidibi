@@ -1,0 +1,23 @@
+{
+  "name": "kidibi",
+  "description": "A Spicetify extension that shows keys of songs in Spotify playlists.",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "spicetify-creator",
+    "build-local": "spicetify-creator --out=dist --minify",
+    "watch": "spicetify-creator --watch",
+    "docs": "typedoc --cleanOutputDir true --out docs/ ./src/**/*.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "spicetify-creator": "^1.0.11",
+    "typedoc": "^0.23.24",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.0"
+  }
+}

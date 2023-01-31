@@ -1,0 +1,9 @@
+{
+  "name": "Kidibi",
+  "description": "A Spicetify extension that shows keys of songs in Spotify playlists.",
+  "main": "kidibi.js",
+  "readme": "README.md",
+  "branch": "main",
+  "authors": ["Jeroen Meijer <jeroenfkmeijer@gmail.com>"],
+  "tags": ["dj", "management", "keys", "camelot"]
+}
